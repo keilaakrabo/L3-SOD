@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 90%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin: 5px;
+}
+
+#add {
+    background-color: green;
+    width: 100px;
+    font-size: 15px;
+}
+
+#subtract {
+    background-color: red;
+    width: 100px;
+    font-size: 15px;
+}
+
+#multiply {
+    background-color: blue;
+    width: 100px;
+    font-size: 15px;
+}
+
+buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+#divide {
+    background-color: orange;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
